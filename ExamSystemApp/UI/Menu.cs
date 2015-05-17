@@ -16,5 +16,15 @@ namespace ExamSystemApp
         {
             InitializeComponent();
         }
+
+        private void teacherButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void studentButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
