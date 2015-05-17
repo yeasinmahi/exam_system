@@ -12,7 +12,13 @@ namespace ExamSystemApp.UI
 
         private void Teacher_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        private void addMoreButton_Click(object sender, EventArgs e)
+        {
+            AddSubjectUi addSubject = new AddSubjectUi();
+            addSubject.Show();
         }
     }
 }

@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,6 +45,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\AddSubjectManager.cs" />
+    <Compile Include="DAL\AddSubjectGatway.cs" />
+    <Compile Include="Model\Subject.cs" />
+    <Compile Include="UI\AddSubjectUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AddSubjectUi.Designer.cs">
+      <DependentUpon>AddSubjectUi.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\MenuUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +74,9 @@
     <Compile Include="UI\TeacherUi.Designer.cs">
       <DependentUpon>TeacherUi.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\AddSubjectUi.resx">
+      <DependentUpon>AddSubjectUi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\MenuUi.resx">
       <DependentUpon>MenuUi.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,11 +108,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BLL\" />
-    <Folder Include="DAL\" />
-    <Folder Include="Model\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

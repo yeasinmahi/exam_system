@@ -10,3 +10,4 @@ E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.pdb
 E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.ExamSystem.resources
 E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.StudentUi.resources
 E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.TeacherUi.resources
+E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.AddSubjectUi.resources

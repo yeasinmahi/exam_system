@@ -14,5 +14,10 @@ namespace ExamSystemApp.UI
         {
 
         }
+
+        private void submitButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
