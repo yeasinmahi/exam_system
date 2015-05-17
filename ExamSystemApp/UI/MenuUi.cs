@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ExamSystemApp
+namespace ExamSystemApp.UI
 {
     public partial class ExamSystem : Form
     {
@@ -19,12 +12,14 @@ namespace ExamSystemApp
 
         private void teacherButton_Click(object sender, EventArgs e)
         {
-
+            TeacherUi teacher = new TeacherUi();
+            teacher.Show();
         }
 
         private void studentButton_Click(object sender, EventArgs e)
         {
-
+            StudentUi student = new StudentUi();
+            student.Show();
         }
     }
 }

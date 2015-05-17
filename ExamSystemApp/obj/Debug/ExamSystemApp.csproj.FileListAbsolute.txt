@@ -3,8 +3,10 @@ E:\Study\Basis\git\examSystem\ExamSystemApp\bin\Debug\ExamSystemApp.exe.config
 E:\Study\Basis\git\examSystem\ExamSystemApp\bin\Debug\ExamSystemApp.exe
 E:\Study\Basis\git\examSystem\ExamSystemApp\bin\Debug\ExamSystemApp.pdb
 E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.csprojResolveAssemblyReference.cache
-E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.ExamSystem.resources
 E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.Properties.Resources.resources
 E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.csproj.GenerateResource.Cache
 E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.exe
 E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.pdb
+E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.ExamSystem.resources
+E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.StudentUi.resources
+E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.TeacherUi.resources

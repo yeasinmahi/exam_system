@@ -1,4 +1,4 @@
-﻿namespace ExamSystemApp
+﻿namespace ExamSystemApp.UI
 {
     partial class ExamSystem
     {
@@ -60,6 +60,7 @@
             this.Controls.Add(this.studentButton);
             this.Controls.Add(this.teacherButton);
             this.Name = "ExamSystem";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.ResumeLayout(false);
 
