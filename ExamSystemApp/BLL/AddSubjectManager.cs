@@ -5,16 +5,16 @@ namespace ExamSystemApp.BLL
 {
     class AddSubjectManager
     {
-        AddSubjectGatway addSubjectGatway = new AddSubjectGatway();
+        readonly AddSubjectGatway _addSubjectGatway = new AddSubjectGatway();
         
         public string Insert(Subject subject)
         {
-            int codeUnique=addSubjectGatway.IsCodeUnique(subject);
+            int codeUnique=_addSubjectGatway.IsCodeUnique(subject);
             string message;
             if (codeUnique==0)
             {
-                int IsInsert = addSubjectGatway.Insert(subject);
-                if (IsInsert > 0)
+                int isInsert = _addSubjectGatway.Insert(subject);
+                if (isInsert > 0)
                 {
                     message = "Insert Seccessfully";
                 }

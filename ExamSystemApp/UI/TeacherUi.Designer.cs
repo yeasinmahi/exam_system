@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.submitButton = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.optionDTextBox = new System.Windows.Forms.TextBox();
+            this.optionBTextBox = new System.Windows.Forms.TextBox();
+            this.optionCTextBox = new System.Windows.Forms.TextBox();
+            this.optionATextBox = new System.Windows.Forms.TextBox();
             this.questionTextBox = new System.Windows.Forms.TextBox();
             this.subjectComboBox = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,6 +44,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.addMoreButton = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.answarComboBox = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -57,48 +59,48 @@
             this.submitButton.Text = "Submit";
             this.submitButton.UseVisualStyleBackColor = true;
             // 
-            // textBox4
+            // optionDTextBox
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Location = new System.Drawing.Point(366, 159);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(157, 29);
-            this.textBox4.TabIndex = 10;
-            this.textBox4.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
+            this.optionDTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.optionDTextBox.Location = new System.Drawing.Point(366, 159);
+            this.optionDTextBox.Multiline = true;
+            this.optionDTextBox.Name = "optionDTextBox";
+            this.optionDTextBox.Size = new System.Drawing.Size(157, 29);
+            this.optionDTextBox.TabIndex = 10;
+            this.optionDTextBox.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
     "issue";
             // 
-            // textBox3
+            // optionBTextBox
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(366, 96);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(157, 29);
-            this.textBox3.TabIndex = 9;
-            this.textBox3.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
+            this.optionBTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.optionBTextBox.Location = new System.Drawing.Point(366, 96);
+            this.optionBTextBox.Multiline = true;
+            this.optionBTextBox.Name = "optionBTextBox";
+            this.optionBTextBox.Size = new System.Drawing.Size(157, 29);
+            this.optionBTextBox.TabIndex = 9;
+            this.optionBTextBox.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
     "issue";
             // 
-            // textBox2
+            // optionCTextBox
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(120, 159);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(157, 29);
-            this.textBox2.TabIndex = 8;
-            this.textBox2.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
+            this.optionCTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.optionCTextBox.Location = new System.Drawing.Point(120, 159);
+            this.optionCTextBox.Multiline = true;
+            this.optionCTextBox.Name = "optionCTextBox";
+            this.optionCTextBox.Size = new System.Drawing.Size(157, 29);
+            this.optionCTextBox.TabIndex = 8;
+            this.optionCTextBox.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
     "issue";
             // 
-            // textBox1
+            // optionATextBox
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(120, 96);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 29);
-            this.textBox1.TabIndex = 7;
-            this.textBox1.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
+            this.optionATextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.optionATextBox.Location = new System.Drawing.Point(120, 96);
+            this.optionATextBox.Multiline = true;
+            this.optionATextBox.Name = "optionATextBox";
+            this.optionATextBox.Size = new System.Drawing.Size(157, 29);
+            this.optionATextBox.TabIndex = 7;
+            this.optionATextBox.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
     "issue";
             // 
             // questionTextBox
@@ -167,10 +169,12 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.answarComboBox);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.optionDTextBox);
+            this.panel1.Controls.Add(this.optionBTextBox);
+            this.panel1.Controls.Add(this.optionCTextBox);
+            this.panel1.Controls.Add(this.optionATextBox);
             this.panel1.Controls.Add(this.questionTextBox);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label3);
@@ -215,6 +219,29 @@
             this.addMoreButton.UseVisualStyleBackColor = true;
             this.addMoreButton.Click += new System.EventHandler(this.addMoreButton_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(185, 223);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(42, 13);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Answar";
+            // 
+            // answarComboBox
+            // 
+            this.answarComboBox.FormattingEnabled = true;
+            this.answarComboBox.Items.AddRange(new object[] {
+            "--select--",
+            "A",
+            "B",
+            "C",
+            "D"});
+            this.answarComboBox.Location = new System.Drawing.Point(246, 220);
+            this.answarComboBox.Name = "answarComboBox";
+            this.answarComboBox.Size = new System.Drawing.Size(76, 21);
+            this.answarComboBox.TabIndex = 10;
+            // 
             // TeacherUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -236,10 +263,10 @@
         #endregion
 
         private System.Windows.Forms.Button submitButton;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox optionDTextBox;
+        private System.Windows.Forms.TextBox optionBTextBox;
+        private System.Windows.Forms.TextBox optionCTextBox;
+        private System.Windows.Forms.TextBox optionATextBox;
         private System.Windows.Forms.TextBox questionTextBox;
         private System.Windows.Forms.ComboBox subjectComboBox;
         private System.Windows.Forms.Label label2;
@@ -251,5 +278,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button addMoreButton;
+        private System.Windows.Forms.ComboBox answarComboBox;
+        private System.Windows.Forms.Label label7;
     }
 }

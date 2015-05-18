@@ -6,13 +6,13 @@ namespace ExamSystemApp.DAL
 {
     class AddSubjectGatway
     {
-        private string _connectionString = ConfigurationManager.ConnectionStrings["connection"].ConnectionString;
+        private readonly string _connectionString = ConfigurationManager.ConnectionStrings["connection"].ConnectionString;
 
         public int Insert(Subject subject)
         {
             try
             {
-                string query = "Insert Into subject (code, title) values ('" + subject.code + "','" + subject.title + "')";
+                string query = "Insert Into subject (code, title) values ('" + subject.Code + "','" + subject.Title + "')";
                 SqlConnection connection;
                 try
                 {
@@ -29,7 +29,7 @@ namespace ExamSystemApp.DAL
                 connection.Close();
                 return rowAffected;
             }
-            catch (System.Exception exception)
+            catch (System.Exception)
             {
                 return 0;
             }
@@ -39,7 +39,7 @@ namespace ExamSystemApp.DAL
         {
             try
             {
-                string query = "select code from subject where code='"+subject.code+"'";
+                string query = "select code from subject where code='"+subject.Code+"'";
                 SqlConnection connection;
                 try
                 {
@@ -61,7 +61,7 @@ namespace ExamSystemApp.DAL
                 connection.Close();
                 return 0;
             }
-            catch (System.Exception exception)
+            catch (System.Exception)
             {
                 return 2;
             }

@@ -2,7 +2,7 @@
 {
     class Subject
     {
-        public string code { get; set; }
-        public string title { get; set; }
+        public string Code { get; set; }
+        public string Title { get; set; }
     }
 }
