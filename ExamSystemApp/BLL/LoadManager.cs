@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using ExamSystemApp.DAL;
 using ExamSystemApp.Model;
 
@@ -10,10 +6,15 @@ namespace ExamSystemApp.BLL
 {
     class LoadManager
     {
-        readonly LoadGatway loadGatway = new LoadGatway();
+        readonly LoadGatway _loadGatway = new LoadGatway();
         public List<Subject> LoadAllSubject()
         {
-            return loadGatway.LoadAllSubject();
+            return _loadGatway.LoadAllSubject();
+        }
+
+        public List<QuestionAndAnswer> LoadQuestionList(int sid)
+        {
+            return _loadGatway.LoadQuestionList(sid);
         }
     }
 }

@@ -17,7 +17,8 @@ namespace ExamSystemApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ExamSystem());
+            //Application.Run(new ExamSystem());
+            Application.Run(new WelcomePage());
         }
     }
 }

@@ -39,7 +39,10 @@ namespace ExamSystemApp.UI
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            Close();
+            TeacherUi teacherUi = new TeacherUi();
+            Dispose();
+            teacherUi.Show();
+
         }
     }
 }

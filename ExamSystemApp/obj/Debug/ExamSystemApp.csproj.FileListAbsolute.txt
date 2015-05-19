@@ -11,3 +11,5 @@ E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.ExamSyste
 E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.StudentUi.resources
 E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.TeacherUi.resources
 E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.AddSubjectUi.resources
+E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.WelcomePage.resources
+E:\Study\Basis\git\examSystem\ExamSystemApp\obj\Debug\ExamSystemApp.UI.LoginPageUi.resources

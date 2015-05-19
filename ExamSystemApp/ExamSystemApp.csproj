@@ -61,6 +61,12 @@
     <Compile Include="UI\AddSubjectUi.Designer.cs">
       <DependentUpon>AddSubjectUi.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\LoginPageUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LoginPageUi.Designer.cs">
+      <DependentUpon>LoginPageUi.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\MenuUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,8 +87,17 @@
     <Compile Include="UI\TeacherUi.Designer.cs">
       <DependentUpon>TeacherUi.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\WelcomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WelcomePage.Designer.cs">
+      <DependentUpon>WelcomePage.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="UI\AddSubjectUi.resx">
       <DependentUpon>AddSubjectUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LoginPageUi.resx">
+      <DependentUpon>LoginPageUi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\MenuUi.resx">
       <DependentUpon>MenuUi.cs</DependentUpon>
@@ -95,12 +110,16 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="UI\StudentUi.resx">
       <DependentUpon>StudentUi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\TeacherUi.resx">
       <DependentUpon>TeacherUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WelcomePage.resx">
+      <DependentUpon>WelcomePage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -115,7 +134,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\welcome.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

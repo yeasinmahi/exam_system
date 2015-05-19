@@ -41,11 +41,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.answarComboBox = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.addMoreButton = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.answarComboBox = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -58,6 +58,7 @@
             this.submitButton.TabIndex = 8;
             this.submitButton.Text = "Submit";
             this.submitButton.UseVisualStyleBackColor = true;
+            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
             // optionDTextBox
             // 
@@ -67,8 +68,6 @@
             this.optionDTextBox.Name = "optionDTextBox";
             this.optionDTextBox.Size = new System.Drawing.Size(157, 29);
             this.optionDTextBox.TabIndex = 10;
-            this.optionDTextBox.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
-    "issue";
             // 
             // optionBTextBox
             // 
@@ -78,8 +77,6 @@
             this.optionBTextBox.Name = "optionBTextBox";
             this.optionBTextBox.Size = new System.Drawing.Size(157, 29);
             this.optionBTextBox.TabIndex = 9;
-            this.optionBTextBox.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
-    "issue";
             // 
             // optionCTextBox
             // 
@@ -89,8 +86,6 @@
             this.optionCTextBox.Name = "optionCTextBox";
             this.optionCTextBox.Size = new System.Drawing.Size(157, 29);
             this.optionCTextBox.TabIndex = 8;
-            this.optionCTextBox.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
-    "issue";
             // 
             // optionATextBox
             // 
@@ -100,8 +95,6 @@
             this.optionATextBox.Name = "optionATextBox";
             this.optionATextBox.Size = new System.Drawing.Size(157, 29);
             this.optionATextBox.TabIndex = 7;
-            this.optionATextBox.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
-    "issue";
             // 
             // questionTextBox
             // 
@@ -111,8 +104,6 @@
             this.questionTextBox.Name = "questionTextBox";
             this.questionTextBox.Size = new System.Drawing.Size(455, 34);
             this.questionTextBox.TabIndex = 6;
-            this.questionTextBox.Text = "Sample a question is set to only see the sample to all aboutb the help of desing " +
-    "issue";
             // 
             // subjectComboBox
             // 
@@ -186,6 +177,28 @@
             this.panel1.Size = new System.Drawing.Size(576, 270);
             this.panel1.TabIndex = 7;
             // 
+            // answarComboBox
+            // 
+            this.answarComboBox.FormattingEnabled = true;
+            this.answarComboBox.Items.AddRange(new object[] {
+            "A",
+            "B",
+            "C",
+            "D"});
+            this.answarComboBox.Location = new System.Drawing.Point(246, 220);
+            this.answarComboBox.Name = "answarComboBox";
+            this.answarComboBox.Size = new System.Drawing.Size(76, 21);
+            this.answarComboBox.TabIndex = 10;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(185, 223);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(42, 13);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Answar";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -218,29 +231,6 @@
             this.addMoreButton.Text = "Add More";
             this.addMoreButton.UseVisualStyleBackColor = true;
             this.addMoreButton.Click += new System.EventHandler(this.addMoreButton_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(185, 223);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(42, 13);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Answar";
-            // 
-            // answarComboBox
-            // 
-            this.answarComboBox.FormattingEnabled = true;
-            this.answarComboBox.Items.AddRange(new object[] {
-            "--select--",
-            "A",
-            "B",
-            "C",
-            "D"});
-            this.answarComboBox.Location = new System.Drawing.Point(246, 220);
-            this.answarComboBox.Name = "answarComboBox";
-            this.answarComboBox.Size = new System.Drawing.Size(76, 21);
-            this.answarComboBox.TabIndex = 10;
             // 
             // TeacherUi
             // 
