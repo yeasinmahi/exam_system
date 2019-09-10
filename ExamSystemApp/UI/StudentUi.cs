@@ -105,12 +105,12 @@ namespace ExamSystemApp.UI
             CRadioButton.Checked = false;
             DRadioButton.Checked = false;
             
-            if (_countQuestion>=2)
+            if (_countQuestion>=10)
             {
                 timer2.Start();
-                if (_i < 2)
+                if (_i < 10)
                 {
-                    if (_i == 1)
+                    if (_i == 9)
                     {
                         submitButton.Text = @"Finish";
                     }
